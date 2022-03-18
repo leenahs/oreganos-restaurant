@@ -1,0 +1,158 @@
+
+.topnav {
+    background-color:#BD8E83;
+    overflow: hidden;
+    display: flex;
+    /*position: fixed;*/
+    /*width: 100%;*/
+    
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #6F5B3E;
+  color: white;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color:#F0D9D0;
+}
+
+p{
+    text-align: center;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #DACAC4;
+    color:#6F5B3E;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DACAC4;
+}
+
+.dropdown-content a {
+    float: none;
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer{
+    background-color: #ad746a;
+    width: 100%;
+    position: absolute;
+}
+
+.container{
+    display: flex;
+}
+
+.col-1{
+    padding-left:15%;
+}
+
+.col-1, .col-2{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width:20%;
+    float: left;
+    margin-right: 20px;
+    overflow:hidden;
+}
+
+.col-1 h3, .col-2 h3{
+    color: #f7eae1;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.col-2 p{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+.links a{
+    color: #e6d5ca;
+    display: block;
+    font-style: italic;
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+
+.links a:hover{
+    color: #d4ab87;
+}
+
+.container p{
+    color: #e6d5ca;
+    display: block;
+    text-decoration: none;
+    font-style: italic;
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+
+.logo{
+    width: 27px;
+    padding-right: 12px;
+}
+
+.div1, .div2, .div3 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.div3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
