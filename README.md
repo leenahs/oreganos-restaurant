@@ -1,5 +1,5 @@
 # oreganos-restaurant
-A group project done for the Web programming course.
+A group project done for a Web programming course.
 
 Oregano's is a hypothetical italian restaurant that we conjured up to create its own website. It has pages for story, menu, gallery, location, and contact page.
 
