@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/StyleContactUs.css">
+        <link rel="stylesheet" href="../css/StyleMain.css">
+        <script src="ContactUs.js"></script>
+    </head>
+    <body>
+        <br><div><center><h1><i><a href="Main.html" style="color:#6F5B3E">Oregano's</a></i></h1></center></div>
+        <div class="topnav">
+            <a href="Main.html"><i>Home</i></a>
+            <a href="Story.html"><i>Story</i></a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="location.href='Menu.html';"><i>Menu</i></button>
+                <div class="dropdown-content">
+                  <a href="Salads.html"><i>Salads</i></a>
+                  <a href="Soups.html"><i>Soups</i></a>
+                  <a href="Appetizers.html"><i>Appetizers</i></a>
+                  <a href="Pizza.html"><i>Pizza</i></a>
+                  <a href="Pasta.html"><i>Pasta</i></a>
+                  <a href="Risotto.html"><i>Risotto</i></a>
+                  <a href="Main Courses.html"><i>Main Courses</i></a>
+                  <a href="Desserts.html"><i>Desserts</i></a>
+                </div>
+            </div> 
+            <a href="Gallery.html"><i>Gallery</i></a>
+            <a href="Location.html"><i>Location</i></a>
+            <a class="active" href="ContactUs.html"><i>Contact Us</i></a> 
+        </div>
+        <div class="topnav2">
+            <p class="dropbtn"><i>Contact Us</i></p>
+        </div> 
+
+        <div class="para">
+            <h3>For reservations: </h3>
+            <p>Please call the number: +39 02 688 0836</p>
+            <br>
+            <h3>Working hours:</h3>
+            <p>
+                Monday      <span class="time">2pm-10pm</span> <br><br>
+                Tuesday     <span class="time">2pm-10pm</span> <br><br>
+                Wednesay    <span class="time">2pm-10pm</span> <br><br>
+                Thursday    <span class="time">2pm-10pm</span> <br><br>
+                Friday      <span class="time">2pm-12am</span> <br><br>
+                Saturday    <span class="time">2pm-12am</span> <br><br>
+                Sunday      <span class="time">2pm-12am</span>
+            </p>
+            <br>
+            <h3>Customer Reviews:</h3>
+            <p id="pText"></p>
+        </div>
+        
+        <div class="review">
+            <center>
+            <label>Add a review:</label> <br><br>
+            <textarea id="inputText" rows="8" cols="50" placeholder="Please type your review here."></textarea> <br><br>
+            <button onclick="pushData();">Submit</button>
+            </center>
+        </div>
+    </body>
+    <footer>
+        <div class="container">
+            <div class="col-1">
+                <h3>Useful Links</h3>
+                <div class="links">
+                    <a href="Story.html">Our story</a>
+                    <a href="Location.html">Our location</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <h3>Contact information</h3>
+                <p>Tel. number: +39 02 688 0836 <br><br></p>
+            </div>
+            <div class="col-2">
+                <h3>News & Events</h3>
+                <p>Get our latest news across social platforms!</p>
+                <a href="https://twitter.com/oreganosmilan" target="_blank"><img class="logo" src="../images/twitter.png"/></a>
+                <a href="https://facebook.com/oreganosmilan" target="_blank"><img class="logo" src="../images/facebook.png"/></a>
+                <a href="https://www.instagram.com/oreganosmilan" target="_blank"><img class="logo" src="../images/insta.png"/></a>
+            </div>
+        </div>
+    </footer>
+</html>
+
